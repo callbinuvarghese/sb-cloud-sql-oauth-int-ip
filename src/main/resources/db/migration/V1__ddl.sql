@@ -1,0 +1,5 @@
+--CREATE TABLE customer (
+--       customer_id serial4 NOT NULL,
+--       customer_name varchar(100) NULL,
+--       CONSTRAINT customer_pkey PRIMARY KEY (customer_id)
+--);

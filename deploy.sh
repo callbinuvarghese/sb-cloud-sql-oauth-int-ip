@@ -1,0 +1,3 @@
+gcloud run deploy apiserver-test1 --image=us-east4-docker.pkg.dev/acn-highmark-health-odh/quickstart-docker-repo/api-test-1:latest  --platform managed --project=acn-highmark-health-odh --region=us-east4 --set-env-vars "spring.cloud.gcp.sql.instance-connection-name=acn-highmark-health-odh:us-east4:binu-pg13" --set-env-vars "spring.cloud.gcp.sql.database-name=test-db"
+
+gcloud run deploy apiserver-test1 --image=us-east4-docker.pkg.dev/acn-highmark-health-odh/quickstart-docker-repo/api-test-1:latest  --platform managed --project=acn-highmark-health-odh --region=us-east4 --vpc-connector cymbalconnector --set-env-vars "spring.cloud.gcp.sql.instance-connection-name=10.9.98.14" --set-env-vars "spring.cloud.gcp.sql.database-name=test-db"

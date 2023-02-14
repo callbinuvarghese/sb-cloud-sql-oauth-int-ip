@@ -1,0 +1,6 @@
+com/example/accessingdatarest/config/AuditorAwareImpl.class
+com/example/accessingdatarest/AccessingDataRestApplication.class
+com/example/accessingdatarest/type/TaskType.class
+com/example/accessingdatarest/service/SQLTestService.class
+com/example/accessingdatarest/entity/Customer.class
+com/example/accessingdatarest/config/JpaConfig.class
